@@ -1,0 +1,14 @@
+{
+    "Adult1FirstName": "firstname",
+    "Adult1LastNmae": "lastname",
+     "Adult2FirstName": "firsts",
+    "Adult2LastNmae": "lasts",
+    "yourName": "firstnamelastname",
+    "MobilePhoneNumber": "07474747474",
+    "EmailAddress": "testing@gmail.com",
+    "AddressLine1": "addr1",
+    "AddressLine2": "add2",
+    "City": "city",
+    "Postcode":"postcode",
+    "Country":"United Kingdom"
+}

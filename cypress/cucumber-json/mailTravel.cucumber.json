@@ -1,0 +1,123 @@
+[
+  {
+    "description": "    test Mailtravel application",
+    "keyword": "Feature",
+    "name": "Mailtravel apllication",
+    "line": 1,
+    "id": "mailtravel-apllication",
+    "tags": [],
+    "uri": "mailTravel.feature",
+    "elements": [
+      {
+        "id": "mailtravel-apllication;test-search-bar",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "test Search bar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the User visits to 'Home' page",
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "confirm the page title has 'Home Page | Mail Travel'",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "accept All cookies",
+            "result": {
+              "status": "passed",
+              "duration": 1681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the User Search for 'India' in Search bar to book online",
+            "result": {
+              "status": "passed",
+              "duration": 3266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the User should see 'Please select your departure date' error message",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the User select date to book online",
+            "result": {
+              "status": "passed",
+              "duration": 1835000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the User should see '1. Date, Departure & Passengers' section to verify",
+            "result": {
+              "status": "passed",
+              "duration": 3813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user select rooms to submit passenger details",
+            "result": {
+              "status": "passed",
+              "duration": 8037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "verify the Confirm Details + Book",
+            "result": {
+              "status": "passed",
+              "duration": 3584000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "verify the 'Book Now' button is enabled",
+            "result": {
+              "status": "passed",
+              "duration": 2798000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
